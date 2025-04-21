@@ -2,18 +2,18 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "AutoMapper/13.0.1": {
+      "AutoMapper/14.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Options": "6.0.0"
+          "Microsoft.Extensions.Options": "8.0.0"
         },
         "compile": {
-          "lib/net6.0/AutoMapper.dll": {
+          "lib/net8.0/AutoMapper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/AutoMapper.dll": {
+          "lib/net8.0/AutoMapper.dll": {
             "related": ".xml"
           }
         }
@@ -92,7 +92,7 @@
           }
         }
       },
-      "coverlet.collector/6.0.2": {
+      "coverlet.collector/6.0.4": {
         "type": "package",
         "build": {
           "build/netstandard2.0/coverlet.collector.targets": {}
@@ -112,6 +112,23 @@
         "resource": {
           "lib/netstandard1.6/de-DE/Faker.NETCore.resources.dll": {
             "locale": "de-DE"
+          }
+        }
+      },
+      "mercadopago-sdk/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MercadoPago.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MercadoPago.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -145,7 +162,7 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.12.0": {
+      "Microsoft.CodeCoverage/17.13.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -607,11 +624,11 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/17.12.0": {
+      "Microsoft.NET.Test.Sdk/17.13.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.12.0",
-          "Microsoft.TestPlatform.TestHost": "17.12.0"
+          "Microsoft.CodeCoverage": "17.13.0",
+          "Microsoft.TestPlatform.TestHost": "17.13.0"
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {}
@@ -747,7 +764,7 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.12.0": {
+      "Microsoft.TestPlatform.ObjectModel/17.13.0": {
         "type": "package",
         "dependencies": {
           "System.Reflection.Metadata": "1.6.0"
@@ -843,10 +860,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.12.0": {
+      "Microsoft.TestPlatform.TestHost/17.13.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.12.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.13.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -1018,7 +1035,7 @@
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
@@ -1344,7 +1361,7 @@
           "System.Security.Permissions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -1466,7 +1483,7 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
@@ -2147,7 +2164,7 @@
       "System.Security.AccessControl/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -2404,7 +2421,7 @@
           "System.Windows.Extensions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -2609,7 +2626,7 @@
           "System.Drawing.Common": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
@@ -2678,12 +2695,12 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "xunit/2.9.2": {
+      "xunit/2.9.3": {
         "type": "package",
         "dependencies": {
-          "xunit.analyzers": "1.16.0",
-          "xunit.assert": "2.9.2",
-          "xunit.core": "[2.9.2]"
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
         }
       },
       "xunit.abstractions/2.0.3": {
@@ -2699,10 +2716,10 @@
           }
         }
       },
-      "xunit.analyzers/1.16.0": {
+      "xunit.analyzers/1.18.0": {
         "type": "package"
       },
-      "xunit.assert/2.9.2": {
+      "xunit.assert/2.9.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/xunit.assert.dll": {
@@ -2715,11 +2732,11 @@
           }
         }
       },
-      "xunit.core/2.9.2": {
+      "xunit.core/2.9.3": {
         "type": "package",
         "dependencies": {
-          "xunit.extensibility.core": "[2.9.2]",
-          "xunit.extensibility.execution": "[2.9.2]"
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
         },
         "build": {
           "build/xunit.core.props": {},
@@ -2730,7 +2747,7 @@
           "buildMultiTargeting/xunit.core.targets": {}
         }
       },
-      "xunit.extensibility.core/2.9.2": {
+      "xunit.extensibility.core/2.9.3": {
         "type": "package",
         "dependencies": {
           "xunit.abstractions": "2.0.3"
@@ -2746,10 +2763,10 @@
           }
         }
       },
-      "xunit.extensibility.execution/2.9.2": {
+      "xunit.extensibility.execution/2.9.3": {
         "type": "package",
         "dependencies": {
-          "xunit.extensibility.core": "[2.9.2]"
+          "xunit.extensibility.core": "[2.9.3]"
         },
         "compile": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
@@ -2762,7 +2779,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.8.2": {
+      "xunit.runner.visualstudio/3.0.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -2787,7 +2804,8 @@
           "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "7.0.0",
           "Swashbuckle.AspNetCore.Annotations": "7.1.0",
-          "System.IdentityModel.Tokens.Jwt": "8.3.0"
+          "System.IdentityModel.Tokens.Jwt": "8.3.0",
+          "mercadopago-sdk": "2.5.0"
         },
         "compile": {
           "bin/placeholder/ApiEstoque.dll": {}
@@ -2802,19 +2820,19 @@
     }
   },
   "libraries": {
-    "AutoMapper/13.0.1": {
-      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+    "AutoMapper/14.0.0": {
+      "sha512": "OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
       "type": "package",
-      "path": "automapper/13.0.1",
+      "path": "automapper/14.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "automapper.13.0.1.nupkg.sha512",
+        "automapper.14.0.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
-        "lib/net6.0/AutoMapper.dll",
-        "lib/net6.0/AutoMapper.xml"
+        "lib/net8.0/AutoMapper.dll",
+        "lib/net8.0/AutoMapper.xml"
       ]
     },
     "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
@@ -2893,10 +2911,10 @@
         "readme.txt"
       ]
     },
-    "coverlet.collector/6.0.2": {
-      "sha512": "bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
+    "coverlet.collector/6.0.4": {
+      "sha512": "lkhqpF8Pu2Y7IiN7OntbsTtdbpR1syMsm2F3IgX6ootA4ffRqWL5jF7XipHuZQTdVuWG/gVAAcf8mjk8Tz0xPg==",
       "type": "package",
-      "path": "coverlet.collector/6.0.2",
+      "path": "coverlet.collector/6.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2959,7 +2977,7 @@
         "build/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "coverlet-icon.png",
-        "coverlet.collector.6.0.2.nupkg.sha512",
+        "coverlet.collector.6.0.4.nupkg.sha512",
         "coverlet.collector.nuspec"
       ]
     },
@@ -2974,6 +2992,23 @@
         "faker.netcore.nuspec",
         "lib/netstandard1.6/Faker.NETCore.dll",
         "lib/netstandard1.6/de-DE/Faker.NETCore.resources.dll"
+      ]
+    },
+    "mercadopago-sdk/2.5.0": {
+      "sha512": "ZoVQfkIAKJSAFf9Fl9e+XRsx839RZKH1EgBctATSG2euoSf5f1/HLeiJNYKRh1/KO7+XtJWm+Zt27PqUmoTQFA==",
+      "type": "package",
+      "path": "mercadopago-sdk/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/MercadoPago.dll",
+        "lib/net6.0/MercadoPago.pdb",
+        "lib/net6.0/MercadoPago.xml",
+        "lib/netstandard2.1/MercadoPago.dll",
+        "lib/netstandard2.1/MercadoPago.pdb",
+        "lib/netstandard2.1/MercadoPago.xml",
+        "mercadopago-sdk.2.5.0.nupkg.sha512",
+        "mercadopago-sdk.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
@@ -3016,10 +3051,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CodeCoverage/17.12.0": {
-      "sha512": "4svMznBd5JM21JIG2xZKGNanAHNXplxf/kQDFfLHXQ3OnpJkayRK/TjacFjA+EYmoyuNXHo/sOETEfcYtAzIrA==",
+    "Microsoft.CodeCoverage/17.13.0": {
+      "sha512": "9LIUy0y+DvUmEPtbRDw6Bay3rzwqFV8P4efTrK4CZhQle3M/QwLPjISghfcolmEGAPWxuJi6m98ZEfk4VR4Lfg==",
       "type": "package",
-      "path": "microsoft.codecoverage/17.12.0",
+      "path": "microsoft.codecoverage/17.13.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3078,7 +3113,7 @@
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net462/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.17.12.0.nupkg.sha512",
+        "microsoft.codecoverage.17.13.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
@@ -3962,10 +3997,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/17.12.0": {
-      "sha512": "kt/PKBZ91rFCWxVIJZSgVLk+YR+4KxTuHf799ho8WNiK5ZQpJNAEZCAWX86vcKrs+DiYjiibpYKdGZP6+/N17w==",
+    "Microsoft.NET.Test.Sdk/17.13.0": {
+      "sha512": "W19wCPizaIC9Zh47w8wWI/yxuqR7/dtABwOrc8r2jX/8mUNxM2vw4fXDh+DJTeogxV+KzKwg5jNNGQVwf3LXyA==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/17.12.0",
+      "path": "microsoft.net.test.sdk/17.13.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3980,7 +4015,7 @@
         "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
         "lib/net462/_._",
         "lib/netcoreapp3.1/_._",
-        "microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+        "microsoft.net.test.sdk.17.13.0.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -4103,10 +4138,10 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/17.12.0": {
-      "sha512": "TDqkTKLfQuAaPcEb3pDDWnh7b3SyZF+/W9OZvWFp6eJCIiiYFdSB6taE2I6tWrFw5ywhzOb6sreoGJTI6m3rSQ==",
+    "Microsoft.TestPlatform.ObjectModel/17.13.0": {
+      "sha512": "bt0E0Dx+iqW97o4A59RCmUmz/5NarJ7LRL+jXbSHod72ibL5XdNm1Ke+UO5tFhBG4VwHLcSjqq9BUSblGNWamw==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/17.12.0",
+      "path": "microsoft.testplatform.objectmodel/17.13.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4198,14 +4233,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.17.13.0.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/17.12.0": {
-      "sha512": "MiPEJQNyADfwZ4pJNpQex+t9/jOClBGMiCiVVFuELCMSX2nmNfvUor3uFVxNNCg30uxDP8JDYfPnMXQzsfzYyg==",
+    "Microsoft.TestPlatform.TestHost/17.13.0": {
+      "sha512": "9GGw08Dc3AXspjekdyTdZ/wYWFlxbgcF0s7BKxzVX+hzAwpifDOdxM+ceVaaJSQOwqt3jtuNlHn3XTpKUS9x9Q==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/17.12.0",
+      "path": "microsoft.testplatform.testhost/17.13.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4267,7 +4302,7 @@
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+        "microsoft.testplatform.testhost.17.13.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -8344,16 +8379,16 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "xunit/2.9.2": {
-      "sha512": "7LhFS2N9Z6Xgg8aE5lY95cneYivRMfRI8v+4PATa4S64D5Z/Plkg0qa8dTRHSiGRgVZ/CL2gEfJDE5AUhOX+2Q==",
+    "xunit/2.9.3": {
+      "sha512": "TlXQBinK35LpOPKHAqbLY4xlEen9TBafjs0V5KnA4wZsoQLQJiirCR4CbIXvOH8NzkW4YeJKP5P/Bnrodm0h9Q==",
       "type": "package",
-      "path": "xunit/2.9.2",
+      "path": "xunit/2.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "_content/README.md",
         "_content/logo-128-transparent.png",
-        "xunit.2.9.2.nupkg.sha512",
+        "xunit.2.9.3.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
@@ -8374,10 +8409,10 @@
         "xunit.abstractions.nuspec"
       ]
     },
-    "xunit.analyzers/1.16.0": {
-      "sha512": "hptYM7vGr46GUIgZt21YHO4rfuBAQS2eINbFo16CV/Dqq+24Tp+P5gDCACu1AbFfW4Sp/WRfDPSK8fmUUb8s0Q==",
+    "xunit.analyzers/1.18.0": {
+      "sha512": "OtFMHN8yqIcYP9wcVIgJrq01AfTxijjAqVDy/WeQVSyrDC1RzBWeQPztL49DN2syXRah8TYnfvk035s7L95EZQ==",
       "type": "package",
-      "path": "xunit.analyzers/1.16.0",
+      "path": "xunit.analyzers/1.18.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -8388,14 +8423,14 @@
         "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
-        "xunit.analyzers.1.16.0.nupkg.sha512",
+        "xunit.analyzers.1.18.0.nupkg.sha512",
         "xunit.analyzers.nuspec"
       ]
     },
-    "xunit.assert/2.9.2": {
-      "sha512": "QkNBAQG4pa66cholm28AxijBjrmki98/vsEh4Sx5iplzotvPgpiotcxqJQMRC8d7RV7nIT8ozh97957hDnZwsQ==",
+    "xunit.assert/2.9.3": {
+      "sha512": "/Kq28fCE7MjOV42YLVRAJzRF0WmEqsmflm0cfpMjGtzQ2lR5mYVj1/i0Y8uDAOLczkL3/jArrwehfMD0YogMAA==",
       "type": "package",
-      "path": "xunit.assert/2.9.2",
+      "path": "xunit.assert/2.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8405,14 +8440,14 @@
         "lib/net6.0/xunit.assert.xml",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.9.2.nupkg.sha512",
+        "xunit.assert.2.9.3.nupkg.sha512",
         "xunit.assert.nuspec"
       ]
     },
-    "xunit.core/2.9.2": {
-      "sha512": "O6RrNSdmZ0xgEn5kT927PNwog5vxTtKrWMihhhrT0Sg9jQ7iBDciYOwzBgP2krBEk5/GBXI18R1lKvmnxGcb4w==",
+    "xunit.core/2.9.3": {
+      "sha512": "BiAEvqGvyme19wE0wTKdADH+NloYqikiU0mcnmiNyXaF9HyHmE6sr/3DC5vnBkgsWaE6yPyWszKSPSApWdRVeQ==",
       "type": "package",
-      "path": "xunit.core/2.9.2",
+      "path": "xunit.core/2.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8422,14 +8457,14 @@
         "build/xunit.core.targets",
         "buildMultiTargeting/xunit.core.props",
         "buildMultiTargeting/xunit.core.targets",
-        "xunit.core.2.9.2.nupkg.sha512",
+        "xunit.core.2.9.3.nupkg.sha512",
         "xunit.core.nuspec"
       ]
     },
-    "xunit.extensibility.core/2.9.2": {
-      "sha512": "Ol+KlBJz1x8BrdnhN2DeOuLrr1I/cTwtHCggL9BvYqFuVd/TUSzxNT5O0NxCIXth30bsKxgMfdqLTcORtM52yQ==",
+    "xunit.extensibility.core/2.9.3": {
+      "sha512": "kf3si0YTn2a8J8eZNb+zFpwfoyvIrQ7ivNk5ZYA5yuYk1bEtMe4DxJ2CF/qsRgmEnDr7MnW1mxylBaHTZ4qErA==",
       "type": "package",
-      "path": "xunit.extensibility.core/2.9.2",
+      "path": "xunit.extensibility.core/2.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8442,14 +8477,14 @@
         "lib/net452/xunit.runner.utility.net452.dll",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.9.2.nupkg.sha512",
+        "xunit.extensibility.core.2.9.3.nupkg.sha512",
         "xunit.extensibility.core.nuspec"
       ]
     },
-    "xunit.extensibility.execution/2.9.2": {
-      "sha512": "rKMpq4GsIUIJibXuZoZ8lYp5EpROlnYaRpwu9Zr0sRZXE7JqJfEEbCsUriZqB+ByXCLFBJyjkTRULMdC+U566g==",
+    "xunit.extensibility.execution/2.9.3": {
+      "sha512": "yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
       "type": "package",
-      "path": "xunit.extensibility.execution/2.9.2",
+      "path": "xunit.extensibility.execution/2.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8459,32 +8494,28 @@
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
         "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.9.2.nupkg.sha512",
+        "xunit.extensibility.execution.2.9.3.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.8.2": {
-      "sha512": "vm1tbfXhFmjFMUmS4M0J0ASXz3/U5XvXBa6DOQUL3fEz4Vt6YPhv+ESCarx6M6D+9kJkJYZKCNvJMas1+nVfmQ==",
+    "xunit.runner.visualstudio/3.0.2": {
+      "sha512": "oXbusR6iPq0xlqoikjdLvzh+wQDkMv9If58myz9MEzldS4nIcp442Btgs2sWbYWV+caEluMe2pQCZ0hUZgPiow==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.8.2",
+      "path": "xunit.runner.visualstudio/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "_content/README.md",
         "_content/logo-128-transparent.png",
-        "build/net462/xunit.abstractions.dll",
-        "build/net462/xunit.runner.reporters.net452.dll",
-        "build/net462/xunit.runner.utility.net452.dll",
-        "build/net462/xunit.runner.visualstudio.props",
-        "build/net462/xunit.runner.visualstudio.testadapter.dll",
+        "build/net472/xunit.abstractions.dll",
+        "build/net472/xunit.runner.visualstudio.props",
+        "build/net472/xunit.runner.visualstudio.testadapter.dll",
         "build/net6.0/xunit.abstractions.dll",
-        "build/net6.0/xunit.runner.reporters.netcoreapp10.dll",
-        "build/net6.0/xunit.runner.utility.netcoreapp10.dll",
         "build/net6.0/xunit.runner.visualstudio.props",
         "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
-        "lib/net462/_._",
+        "lib/net472/_._",
         "lib/net6.0/_._",
-        "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
+        "xunit.runner.visualstudio.3.0.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -8497,14 +8528,14 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "ApiEstoque >= 1.0.0",
-      "AutoMapper >= 13.0.1",
+      "AutoMapper >= 14.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Faker.NETCore >= 1.0.2",
-      "Microsoft.NET.Test.Sdk >= 17.12.0",
+      "Microsoft.NET.Test.Sdk >= 17.13.0",
       "Moq >= 4.20.72",
-      "coverlet.collector >= 6.0.2",
-      "xunit >= 2.9.2",
-      "xunit.runner.visualstudio >= 2.8.2"
+      "coverlet.collector >= 6.0.4",
+      "xunit >= 2.9.3",
+      "xunit.runner.visualstudio >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -8514,11 +8545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
+      "projectUniqueName": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
       "projectName": "ApiEstoqueTests",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
+      "projectPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\obj\\",
+      "outputPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8533,15 +8564,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
-              "projectPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj"
+            "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
+              "projectPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj"
             }
           }
         }
@@ -8550,7 +8580,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8558,7 +8594,7 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "[13.0.1, )"
+            "version": "[14.0.0, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -8570,7 +8606,7 @@
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[17.12.0, )"
+            "version": "[17.13.0, )"
           },
           "Moq": {
             "target": "Package",
@@ -8580,17 +8616,17 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.2, )"
+            "version": "[6.0.4, )"
           },
           "xunit": {
             "target": "Package",
-            "version": "[2.9.2, )"
+            "version": "[2.9.3, )"
           },
           "xunit.runner.visualstudio": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.8.2, )"
+            "version": "[3.0.2, )"
           }
         },
         "imports": [
@@ -8609,7 +8645,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -8618,7 +8654,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requer AutoMapper (= 12.0.1), mas a versão AutoMapper 13.0.1 foi resolvida.",
+      "message": "Versão detectada do pacote fora da restrição de dependência: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requer AutoMapper (= 12.0.1), mas a versão AutoMapper 14.0.0 foi resolvida.",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

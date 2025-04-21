@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj": {}
+    "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj": {
+    "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
+        "projectUniqueName": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
         "projectName": "ApiEstoqueTests",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
+        "projectPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ApiEstoqueTests.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\obj\\",
+        "outputPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj"
+              "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
+                "projectPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj"
               }
             }
           }
@@ -43,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -51,7 +56,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[14.0.0, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -63,7 +68,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.12.0, )"
+              "version": "[17.13.0, )"
             },
             "Moq": {
               "target": "Package",
@@ -73,17 +78,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.4, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.2, )"
+              "version": "[2.9.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.8.2, )"
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -102,18 +107,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
+    "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj",
+        "projectUniqueName": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj",
         "projectName": "ApiEstoque",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj",
+        "projectPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\ApiEstoque.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\Projetos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\obj\\",
+        "outputPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,7 +133,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -141,7 +145,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -198,6 +208,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.3.0, )"
+            },
+            "mercadopago-sdk": {
+              "target": "Package",
+              "version": "[2.5.0, )"
             }
           },
           "imports": [
@@ -219,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

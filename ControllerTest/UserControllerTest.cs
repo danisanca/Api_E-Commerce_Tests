@@ -609,7 +609,7 @@ namespace ApiEstoqueTests.ControllerTest
 
             UserUpdateDto user = new UserUpdateDto
             {
-                idUser = id,
+                id = id,
                 email = NewEmail,
                 name = newName
             };
@@ -639,7 +639,7 @@ namespace ApiEstoqueTests.ControllerTest
             userController.ModelState.AddModelError("Email", "É um campo obrigatório");
             UserUpdateDto user = new UserUpdateDto
             {
-                idUser = id,
+                id = id,
                 email = NewEmail,
                 name = newName
             };

@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05B0AF15-084F-4807-B964-198AE75CE7E4}|ApiEstoqueTests.csproj|e:\\projetos\\projetos - estudos\\c#\\portifolio\\e-commerce\\apiestoquetests\\controllertest\\usercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B0AF15-084F-4807-B964-198AE75CE7E4}|ApiEstoqueTests.csproj|solutionrelative:controllertest\\usercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2376,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTest.cs",
+              "DocumentMoniker": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ControllerTest\\UserControllerTest.cs",
+              "RelativeDocumentMoniker": "ControllerTest\\UserControllerTest.cs",
+              "ToolTip": "E:\\Projetos\\Projetos - Estudos\\C#\\Portifolio\\e-commerce\\ApiEstoqueTests\\ControllerTest\\UserControllerTest.cs",
+              "RelativeToolTip": "ControllerTest\\UserControllerTest.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:57:14.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1169,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

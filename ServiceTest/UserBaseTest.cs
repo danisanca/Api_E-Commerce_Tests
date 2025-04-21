@@ -79,7 +79,7 @@ namespace ApiEstoqueTests.ServiceTest
             };
             userUpdateDto = new UserUpdateDto
             {
-                idUser = IdUserMok,
+                id = IdUserMok,
                 name = nameUserMok,
                 email = emailUserMok
             };

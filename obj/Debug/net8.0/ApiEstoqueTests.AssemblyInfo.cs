@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEstoqueTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a47bd9ca08d6afdbcdcb923b5373d3e65191881b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEstoqueTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEstoqueTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
